@@ -10,6 +10,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=mtptisid&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=true)<br/>
 <!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=mtptisid&theme=one_dark_pro&hide_border=false)<br/> -->
+<img width="506" alt="Screenshot 2025-02-07 at 11 22 48 AM" src="https://github.com/user-attachments/assets/bad8108b-fa7e-4b86-a3f7-ec05fa38d4d1" />
 ![](https://github-readme-streak-stats.herokuapp.com/?user=mtptisid&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mtptisid&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
