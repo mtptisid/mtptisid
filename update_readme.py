@@ -17,8 +17,26 @@ themes = [
     "rose", "holi", "neon", "blue_navy", "calm_pink", "ambient_gradient"
 ]
 
+komarev_colors = [
+    "brightgreen", "green", "yellow", "yellowgreen", "orange", "red", "blue", "grey", 
+    "lightgrey", "blueviolet", "ff69b4",  # Requested colors
+    "00b7eb",  # Cyan
+    "ff4500",  # OrangeRed
+    "8a2be2",  # Purple
+    "00ff7f",  # SpringGreen
+    "ff1493",  # DeepPink
+    "00ced1",  # DarkTurquoise
+    "ff8c00",  # DarkOrange
+    "9932cc",  # DarkOrchid
+    "00ff00",  # Lime
+    "ff00ff"   # Magenta
+]
+
+
+
 # Select a random theme
 random_theme = random.choice(themes)
+random_komarev_color = random.choice(komarev_colors)
 
 # Read the README file
 with open("README.md", "r") as file:
@@ -40,6 +58,12 @@ updated_content = re.sub(
 updated_content = re.sub(
     r'(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=mtptisid&theme=)[^&]+',
     rf'\1{random_theme}',
+    updated_content
+)
+
+updated_content = re.sub(
+    r'(!\[.*?\]\(https://komarev\.com/ghpvc/\?username=mtptisid&color=)[^&]+',
+    rf'\1{random_komarev_color}',
     updated_content
 )
 
