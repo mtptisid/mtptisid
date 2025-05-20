@@ -62,7 +62,7 @@ updated_content = re.sub(
 
 # Update Komarev visit counter badge color
 updated_content = re.sub(
-    r'(!\[.*?\]\(https://komarev\.com/ghpvc/\?username=mtptisid&color=)[^&)]+',
+    r'(https://komarev\.com/ghpvc/\?username=mtptisid&color=)[^&)]+',
     rf'\1{random_komarev_color}',
     updated_content
 )
