@@ -13,6 +13,8 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=mtptisid&theme=holi&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mtptisid&theme=holi&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+[![](https://visitcount.itsvg.in/api?id=mtptisid&icon=0&color=0)](https://visitcount.itsvg.in)
+
 <!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=mtptisid&theme=holi&hide_border=false)<br/> 
 <img width="786" alt="Screenshot 2025-02-07 at 11 27 23 AM" src="https://github.com/user-attachments/assets/4efb8701-0679-47ee-9526-596df73381f5" />
 ![](https://github-readme-streak-stats.herokuapp.com/?user=mtptisid&theme=holi&hide_border=false)<br/>-->
