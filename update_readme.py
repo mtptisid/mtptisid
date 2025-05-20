@@ -31,6 +31,40 @@ komarev_colors = [
     "9932cc",  # DarkOrchid
     "00ff00",  # Lime
     "ff00ff"   # Magenta
+    # Soft & Elegant Colors
+    "#FFB6C1",  # Light Pink
+    "#ADD8E6",  # Light Blue
+    "#98FB98",  # Pale Green
+    "#FFFF99",  # Canary Yellow
+    "#DDA0DD",  # Plum
+    "#FFDAB9",  # Peach Puff
+    "#87CEFA",  # Light Sky Blue
+    "#FFA07A",  # Light Salmon
+    "#20B2AA",  # Light Sea Green
+    "#F08080",  # Light Coral
+    "#B0E0E6",  # Powder Blue
+    "#FFDEAD",  # Navajo White
+    "#E6E6FA",  # Lavender
+    "#98FF98",  # Mint Green
+    "#AFEEEE",  # Pale Turquoise
+
+    # Additional Classy Colors
+    "#708090",  # Slate Gray
+    "#4682B4",  # Steel Blue
+    "#BC8F8F",  # Rosy Brown
+    "#F5DEB3",  # Wheat
+    "#DEB887",  # Burly Wood
+    "#B0C4DE",  # Light Steel Blue
+    "#C0C0C0",  # Silver
+    "#A9A9A9",  # Dark Gray
+    "#5F9EA0",  # Cadet Blue
+    "#8FBC8F",  # Dark Sea Green
+    "#DAA520",  # Goldenrod
+    "#D2B48C",  # Tan
+    "#CD853F",  # Peru
+    "#FFE4C4",  # Bisque
+    "#BDB76B",  # Dark Khaki
+    "#EEE8AA",  # Pale Goldenrod
 ]
 
 # Select a random theme and color
