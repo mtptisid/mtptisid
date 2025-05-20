@@ -60,10 +60,17 @@ updated_content = re.sub(
     updated_content
 )
 
-# Update Komarev visit counter badge color
+# Function to update the color in the Komarev badge URL
+def update_komarev_color(match):
+    image_link = match.group(0)
+    # Replace the color parameter within the URL
+    updated_image_link = re.sub(r'color=[^&)]+', f'color={random_komarev_color}', image_link)
+    return updated_image_link
+
+# Update the entire image link for the Komarev badge
 updated_content = re.sub(
-    r'(https://komarev\.com/ghpvc/\?username=mtptisid&color=)[^&)]+',
-    rf'\1{random_komarev_color}',
+    r'!\[.*?\]\(https://komarev\.com/ghpvc/\?[^)]*\)',
+    update_komarev_color,
     updated_content
 )
 
