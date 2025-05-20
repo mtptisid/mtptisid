@@ -3,7 +3,7 @@
 
 ---
 
-![](https://komarev.com/ghpvc/?username=mtptisid&color=#00b7eb)
+![](https://komarev.com/ghpvc/?username=mtptisid&color=00b7eb)
 
 ---
 
