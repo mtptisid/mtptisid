@@ -1,7 +1,7 @@
 import random
 import re
 
-# List of available themes
+# List of available themes for GitHub stats
 themes = [
     "default", "default_repocard", "transparent", "shadow_red", "shadow_green", "shadow_blue",
     "dark", "radical", "merko", "gruvbox", "gruvbox_light", "tokyonight", "onedark", "cobalt",
@@ -17,6 +17,7 @@ themes = [
     "rose", "holi", "neon", "blue_navy", "calm_pink", "ambient_gradient"
 ]
 
+# List of colors for Komarev visit counter badge
 komarev_colors = [
     "brightgreen", "green", "yellow", "yellowgreen", "orange", "red", "blue", "grey", 
     "lightgrey", "blueviolet", "ff69b4",  # Requested colors
@@ -32,9 +33,7 @@ komarev_colors = [
     "ff00ff"   # Magenta
 ]
 
-
-
-# Select a random theme
+# Select a random theme and color
 random_theme = random.choice(themes)
 random_komarev_color = random.choice(komarev_colors)
 
@@ -42,7 +41,7 @@ random_komarev_color = random.choice(komarev_colors)
 with open("README.md", "r") as file:
     content = file.read()
 
-# Update all three URLs with the new theme
+# Update GitHub stats URLs with the new theme
 updated_content = re.sub(
     r'(https://github-readme-stats\.vercel\.app/api\?username=mtptisid&theme=)[^&]+',
     rf'\1{random_theme}',
@@ -61,8 +60,9 @@ updated_content = re.sub(
     updated_content
 )
 
+# Update Komarev visit counter badge color
 updated_content = re.sub(
-    r'(!\[.*?\]\(https://komarev\.com/ghpvc/\?username=mtptisid&color=)[^&]+',
+    r'(!\[.*?\]\(https://komarev\.com/ghpvc/\?username=mtptisid&color=)[^&)]+',
     rf'\1{random_komarev_color}',
     updated_content
 )
@@ -71,4 +71,5 @@ updated_content = re.sub(
 with open("README.md", "w") as file:
     file.write(updated_content)
 
-print(f"Updated theme to: {random_theme}")
+#print(f"Updated GitHub stats theme to: {random_theme}")
+#print(f"Updated Komarev badge color to: {random_komarev_color}")
