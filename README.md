@@ -1,5 +1,45 @@
-# 💫 About Me:
-👋 Hey, I’m Siddharamayya M!<br><br>🚀 AI Engineer | ML & GenAI Enthusiast | DevOps & Software Developer<br><br>I am an AI and software engineering professional with 4+ years of experience in Machine Learning, Generative AI, LLMs, and DevOps. My passion lies in building intelligent systems, optimizing models, and integrating cutting-edge AI with real-world applications.<br><br>💡 What I Do:<br>🔹 Build & fine-tune LLMs for specialized tasks<br>🔹 Develop AI-powered finance agents for stock market predictions 📈<br>🔹 Work with RAG, ML models, and AI pipelines<br>🔹 Automate workflows using Ansible, Docker, and Kubernetes<br>🔹 Develop end-to-end applications with Python, Flask, and Streamlit<br><br>📌 Interests & Projects:<br>✅ Generative AI & LLM Development<br>✅ AI-powered Stock Market Predictions 📊<br>✅ NLP, Chatbots, and Autonomous AI Agents 🤖<br>✅ Cloud & DevOps for AI Deployment<br><br>🛠️ Tech Stack:<br>🔹 Python, LangChain, Hugging Face, TensorFlow, PyTorch<br>🔹 Streamlit, Flask, FastAPI, React<br>🔹 Docker, Kubernetes, GitHub Actions<br>🔹 RHEL, NFS, Ansible Automation<br><br>🌍 Let’s Connect!<br>🔗 [Portfolio](https://mtptisid.github.io)<br>💻[Digital Workspace](siddharamayya.in)<br>📧 msidrm455@gmail.com
+# 💫 About Me
+
+👋 Hey, I'm **Siddharamayya M!**
+
+🚀 **Senior AI Engineer** | LLMs & GenAI | Multi-Agent Systems | MLOps & DevOps
+
+I'm an AI and software engineering professional with **5+ years of experience** building production-grade LLM applications, multi-agent pipelines, and RAG systems across **banking, finance, and enterprise domains**. I specialize in turning cutting-edge AI research into scalable, real-world solutions.
+
+---
+
+## 💡 What I Do
+
+🔹 Design and deploy **multi-agent AI systems** using LangGraph and AutoGen  
+🔹 Build **RAG pipelines** with vector stores (FAISS, ChromaDB, MongoDB Atlas)  
+🔹 Fine-tune **LLMs using QLoRA and LoRA** for domain-specific tasks  
+🔹 Apply **prompt engineering** and **model evaluation (evals)** in production  
+🔹 Implement **LLM observability** with LangSmith — tracing, A/B experiments, feedback loops  
+🔹 Deploy AI workloads on **AWS, GCP, and Azure** with Docker and CI/CD pipelines  
+🔹 Build intelligent **AI agents** for AML investigation, code analysis, and risk prediction  
+
+---
+
+## 📌 Interests & Projects
+
+✅ Generative AI & Production LLM Engineering  
+✅ Multi-Agent Systems & Agentic Workflows 🤖  
+✅ AI-powered FinTech — AML, Risk Scoring, Loan Delinquency Prediction 📊  
+✅ NLP, Chatbots & Autonomous AI Agents  
+✅ Cloud & DevOps for AI Deployment  
+
+
+
+---
+
+## 🌍 Let's Connect!
+
+🔗 [Portfolio](https://siddharamayya.in)  
+💻 [Digital Workspace](https://siddharamayya.in)  
+🐙 [GitHub](https://github.com/mtptisid)  
+💼 [LinkedIn](https://www.linkedin.com/in/siddharamayya-mathapati)  
+📧 [msidrm455@gmail.com](mailto:msidrm455@gmail.com)
+
 
 ---
 
