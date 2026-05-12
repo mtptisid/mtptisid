@@ -1,32 +1,53 @@
 name: Update GitHub Profile Theme
-
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Runs every 10 minutes
-  workflow_dispatch:  # Allows manual triggering
+    - cron: "*/10 * * * *"  
+    - cron: "0 9 * * *"     
+    - cron: "0 18 * * *"    
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  bot-update:
+    if: github.event.schedule == '*/10 * * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
       - name: Install Dependencies
-        run: pip install --upgrade pip  # No extra dependencies needed
-
+        run: pip install --upgrade pip
       - name: Run Update Script
         run: python update_readme.py
-
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto: Updated theme in README" || echo "No changes to commit"
+          git push || echo "Nothing to push"
+        continue-on-error: true
+
+  my-commit:
+    if: github.event.schedule == '0 9 * * *' || github.event.schedule == '0 18 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install Dependencies
+        run: pip install --upgrade pip
+      - name: Run Update Script
+        run: python update_readme.py
+      - name: Commit as Me
+        run: |
+          git config --global user.name "mtptisid"
+          git config --global user.email "msidrm455@gmail.com"
           git add README.md
           git commit -m "Updated theme in README" || echo "No changes to commit"
           git push || echo "Nothing to push"
